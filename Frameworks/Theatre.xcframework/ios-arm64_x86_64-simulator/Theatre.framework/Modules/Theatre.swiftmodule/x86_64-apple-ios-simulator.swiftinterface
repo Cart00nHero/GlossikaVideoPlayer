@@ -1,0 +1,87 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Theatre
+import Foundation
+import Swift
+@_exported import Theatre
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@propertyWrapper final public class ObservableArray<T> where T : Swift.Equatable {
+  final public var wrappedValue: [T] {
+    get
+    set
+  }
+  final public var projectedValue: Theatre.ObservableArray<T> {
+    get
+  }
+  public init(wrappedValue: [T])
+  final public func addObserver(_ observer: @escaping Theatre.ObservableArray<T>.Observer)
+  final public func removeObserver(_ observer: @escaping Theatre.ObservableArray<T>.Observer)
+  public typealias Observer = ([T], Swift.Int?) -> Swift.Void
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class Parcel<T> {
+  final public let sender: Swift.String
+  final public let cargo: T
+  @objc deinit
+}
+open class Actor {
+  public init()
+  @objc deinit
+}
+extension Theatre.Actor {
+  final public func act(_ action: @escaping () -> Swift.Void)
+}
+open class Routine : Theatre.Actor {
+  final public let attach: Theatre.Scenario
+  public init(_ attach: Theatre.Scenario)
+  public func trackParcels(tracker: @escaping () -> Swift.Void)
+  public func stopTracking()
+  public func notifyRecipient<T>(_ recipient: T.Type) where T : Theatre.Scenario
+  @objc deinit
+}
+@_inheritsConvenienceInitializers open class Scenario : Theatre.Actor {
+  @discardableResult
+  public func applyExpress<T, R>(_ express: T, recipient: R.Type) -> Theatre.Parcel<T> where R : Theatre.Scenario
+  public func claimParcels() -> Swift.Array<Any>
+  public func takeOutParcels<T>(_ variety: T.Type) -> [Theatre.Parcel<T>]
+  public func cancelExpress<T, R>(receipt: Theatre.Parcel<T>, recipient: R.Type) where R : Theatre.Scenario
+  override public init()
+  @objc deinit
+}
+final public class Teleport<T> {
+  final public var portal: T {
+    get
+    set
+  }
+  final public var transmittal: T {
+    get
+  }
+  public init(_ object: T)
+  @objc deinit
+}
+infix operator => : AdditionPrecedence
+public struct CondAction<T> {
+}
+public func => <T>(condition: @autoclosure @escaping () -> Swift.Bool, action: @escaping () -> T) -> Theatre.CondAction<T>
+@discardableResult
+public func CondDo<T>(_ cases: Theatre.CondAction<T>...) -> T?
+@propertyWrapper final public class ObservableValue<T> {
+  final public var wrappedValue: T {
+    get
+    set
+  }
+  final public var projectedValue: Theatre.ObservableValue<T> {
+    get
+  }
+  public init(wrappedValue: T)
+  final public func addObserver(_ observer: @escaping (T) -> Swift.Void)
+  @objc deinit
+}
+precedencegroup ForwardPipe {
+  associativity: left
+  higherThan: AdditionPrecedence
+}
+infix operator |> : ForwardPipe
+public func |> <I, O>(value: I, function: ((I) -> O)) -> O

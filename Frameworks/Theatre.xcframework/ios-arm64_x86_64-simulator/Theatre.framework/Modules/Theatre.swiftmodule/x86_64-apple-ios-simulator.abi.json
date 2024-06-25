@@ -1,0 +1,1789 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Theatre",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ObservableArray",
+        "printedName": "ObservableArray",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "wrappedValue",
+            "printedName": "wrappedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Theatre15ObservableArrayC12wrappedValueSayxGvp",
+            "mangledName": "$s7Theatre15ObservableArrayC12wrappedValueSayxGvp",
+            "moduleName": "Theatre",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[τ_0_0]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Theatre15ObservableArrayC12wrappedValueSayxGvg",
+                "mangledName": "$s7Theatre15ObservableArrayC12wrappedValueSayxGvg",
+                "moduleName": "Theatre",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Equatable>",
+                "sugared_genericSig": "<T where T : Swift.Equatable>",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[τ_0_0]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Theatre15ObservableArrayC12wrappedValueSayxGvs",
+                "mangledName": "$s7Theatre15ObservableArrayC12wrappedValueSayxGvs",
+                "moduleName": "Theatre",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Equatable>",
+                "sugared_genericSig": "<T where T : Swift.Equatable>",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Theatre15ObservableArrayC12wrappedValueSayxGvM",
+                "mangledName": "$s7Theatre15ObservableArrayC12wrappedValueSayxGvM",
+                "moduleName": "Theatre",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Equatable>",
+                "sugared_genericSig": "<T where T : Swift.Equatable>",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "projectedValue",
+            "printedName": "projectedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ObservableArray",
+                "printedName": "Theatre.ObservableArray<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:7Theatre15ObservableArrayC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Theatre15ObservableArrayC14projectedValueACyxGvp",
+            "mangledName": "$s7Theatre15ObservableArrayC14projectedValueACyxGvp",
+            "moduleName": "Theatre",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableArray",
+                    "printedName": "Theatre.ObservableArray<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:7Theatre15ObservableArrayC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Theatre15ObservableArrayC14projectedValueACyxGvg",
+                "mangledName": "$s7Theatre15ObservableArrayC14projectedValueACyxGvg",
+                "moduleName": "Theatre",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Equatable>",
+                "sugared_genericSig": "<T where T : Swift.Equatable>",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(wrappedValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ObservableArray",
+                "printedName": "Theatre.ObservableArray<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:7Theatre15ObservableArrayC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Theatre15ObservableArrayC12wrappedValueACyxGSayxG_tcfc",
+            "mangledName": "$s7Theatre15ObservableArrayC12wrappedValueACyxGSayxG_tcfc",
+            "moduleName": "Theatre",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<T where T : Swift.Equatable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "addObserver",
+            "printedName": "addObserver(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([τ_0_0], Swift.Int?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "([τ_0_0], Swift.Int?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[τ_0_0]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Int?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Theatre15ObservableArrayC11addObserveryyySayxG_SiSgtcF",
+            "mangledName": "$s7Theatre15ObservableArrayC11addObserveryyySayxG_SiSgtcF",
+            "moduleName": "Theatre",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<T where T : Swift.Equatable>",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeObserver",
+            "printedName": "removeObserver(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([τ_0_0], Swift.Int?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "([τ_0_0], Swift.Int?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[τ_0_0]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Int?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Theatre15ObservableArrayC14removeObserveryyySayxG_SiSgtcF",
+            "mangledName": "$s7Theatre15ObservableArrayC14removeObserveryyySayxG_SiSgtcF",
+            "moduleName": "Theatre",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<T where T : Swift.Equatable>",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7Theatre15ObservableArrayC",
+        "mangledName": "$s7Theatre15ObservableArrayC",
+        "moduleName": "Theatre",
+        "genericSig": "<τ_0_0 where τ_0_0 : Swift.Equatable>",
+        "sugared_genericSig": "<T where T : Swift.Equatable>",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "PropertyWrapper"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Theatre",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Parcel",
+        "printedName": "Parcel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sender",
+            "printedName": "sender",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Theatre6ParcelC6senderSSvp",
+            "mangledName": "$s7Theatre6ParcelC6senderSSvp",
+            "moduleName": "Theatre",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Theatre6ParcelC6senderSSvg",
+                "mangledName": "$s7Theatre6ParcelC6senderSSvg",
+                "moduleName": "Theatre",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cargo",
+            "printedName": "cargo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Theatre6ParcelC5cargoxvp",
+            "mangledName": "$s7Theatre6ParcelC5cargoxvp",
+            "moduleName": "Theatre",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Theatre6ParcelC5cargoxvg",
+                "mangledName": "$s7Theatre6ParcelC5cargoxvg",
+                "moduleName": "Theatre",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7Theatre6ParcelC",
+        "mangledName": "$s7Theatre6ParcelC",
+        "moduleName": "Theatre",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Theatre",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Actor",
+        "printedName": "Actor",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Actor",
+                "printedName": "Theatre.Actor",
+                "usr": "s:7Theatre5ActorC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Theatre5ActorCACycfc",
+            "mangledName": "$s7Theatre5ActorCACycfc",
+            "moduleName": "Theatre",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "act",
+            "printedName": "act(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Theatre5ActorC3actyyyycF",
+            "mangledName": "$s7Theatre5ActorC3actyyyycF",
+            "moduleName": "Theatre",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7Theatre5ActorC",
+        "mangledName": "$s7Theatre5ActorC",
+        "moduleName": "Theatre",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Theatre",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Routine",
+        "printedName": "Routine",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "attach",
+            "printedName": "attach",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Scenario",
+                "printedName": "Theatre.Scenario",
+                "usr": "s:7Theatre8ScenarioC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Theatre7RoutineC6attachAA8ScenarioCvp",
+            "mangledName": "$s7Theatre7RoutineC6attachAA8ScenarioCvp",
+            "moduleName": "Theatre",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Scenario",
+                    "printedName": "Theatre.Scenario",
+                    "usr": "s:7Theatre8ScenarioC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Theatre7RoutineC6attachAA8ScenarioCvg",
+                "mangledName": "$s7Theatre7RoutineC6attachAA8ScenarioCvg",
+                "moduleName": "Theatre",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Routine",
+                "printedName": "Theatre.Routine",
+                "usr": "s:7Theatre7RoutineC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Scenario",
+                "printedName": "Theatre.Scenario",
+                "usr": "s:7Theatre8ScenarioC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Theatre7RoutineCyAcA8ScenarioCcfc",
+            "mangledName": "$s7Theatre7RoutineCyAcA8ScenarioCcfc",
+            "moduleName": "Theatre",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "trackParcels",
+            "printedName": "trackParcels(tracker:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Theatre7RoutineC12trackParcels7trackeryyyc_tF",
+            "mangledName": "$s7Theatre7RoutineC12trackParcels7trackeryyyc_tF",
+            "moduleName": "Theatre",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopTracking",
+            "printedName": "stopTracking()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Theatre7RoutineC12stopTrackingyyF",
+            "mangledName": "$s7Theatre7RoutineC12stopTrackingyyF",
+            "moduleName": "Theatre",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notifyRecipient",
+            "printedName": "notifyRecipient(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Theatre7RoutineC15notifyRecipientyyxmAA8ScenarioCRbzlF",
+            "mangledName": "$s7Theatre7RoutineC15notifyRecipientyyxmAA8ScenarioCRbzlF",
+            "moduleName": "Theatre",
+            "genericSig": "<τ_0_0 where τ_0_0 : Theatre.Scenario>",
+            "sugared_genericSig": "<T where T : Theatre.Scenario>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Routine",
+                "printedName": "Theatre.Routine",
+                "usr": "s:7Theatre7RoutineC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Theatre7RoutineCACycfc",
+            "mangledName": "$s7Theatre7RoutineCACycfc",
+            "moduleName": "Theatre",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7Theatre7RoutineC",
+        "mangledName": "$s7Theatre7RoutineC",
+        "moduleName": "Theatre",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:7Theatre5ActorC",
+        "superclassNames": [
+          "Theatre.Actor"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Theatre",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Scenario",
+        "printedName": "Scenario",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "applyExpress",
+            "printedName": "applyExpress(_:recipient:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Parcel",
+                "printedName": "Theatre.Parcel<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:7Theatre6ParcelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_1.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Theatre8ScenarioC12applyExpress_9recipientAA6ParcelCyxGx_q_mtACRb_r0_lF",
+            "mangledName": "$s7Theatre8ScenarioC12applyExpress_9recipientAA6ParcelCyxGx_q_mtACRb_r0_lF",
+            "moduleName": "Theatre",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_1 : Theatre.Scenario>",
+            "sugared_genericSig": "<T, R where R : Theatre.Scenario>",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "claimParcels",
+            "printedName": "claimParcels()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Theatre8ScenarioC12claimParcelsSayypGyF",
+            "mangledName": "$s7Theatre8ScenarioC12claimParcelsSayypGyF",
+            "moduleName": "Theatre",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "takeOutParcels",
+            "printedName": "takeOutParcels(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Theatre.Parcel<τ_0_0>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Parcel",
+                    "printedName": "Theatre.Parcel<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:7Theatre6ParcelC"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Theatre8ScenarioC14takeOutParcelsySayAA6ParcelCyxGGxmlF",
+            "mangledName": "$s7Theatre8ScenarioC14takeOutParcelsySayAA6ParcelCyxGGxmlF",
+            "moduleName": "Theatre",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cancelExpress",
+            "printedName": "cancelExpress(receipt:recipient:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Parcel",
+                "printedName": "Theatre.Parcel<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:7Theatre6ParcelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_1.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Theatre8ScenarioC13cancelExpress7receipt9recipientyAA6ParcelCyxG_q_mtACRb_r0_lF",
+            "mangledName": "$s7Theatre8ScenarioC13cancelExpress7receipt9recipientyAA6ParcelCyxG_q_mtACRb_r0_lF",
+            "moduleName": "Theatre",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_1 : Theatre.Scenario>",
+            "sugared_genericSig": "<T, R where R : Theatre.Scenario>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Scenario",
+                "printedName": "Theatre.Scenario",
+                "usr": "s:7Theatre8ScenarioC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Theatre8ScenarioCACycfc",
+            "mangledName": "$s7Theatre8ScenarioCACycfc",
+            "moduleName": "Theatre",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7Theatre8ScenarioC",
+        "mangledName": "$s7Theatre8ScenarioC",
+        "moduleName": "Theatre",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:7Theatre5ActorC",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "Theatre.Actor"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Theatre",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Theatre",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Teleport",
+        "printedName": "Teleport",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "portal",
+            "printedName": "portal",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Theatre8TeleportC6portalxvp",
+            "mangledName": "$s7Theatre8TeleportC6portalxvp",
+            "moduleName": "Theatre",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Theatre8TeleportC6portalxvg",
+                "mangledName": "$s7Theatre8TeleportC6portalxvg",
+                "moduleName": "Theatre",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Theatre8TeleportC6portalxvs",
+                "mangledName": "$s7Theatre8TeleportC6portalxvs",
+                "moduleName": "Theatre",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Theatre8TeleportC6portalxvM",
+                "mangledName": "$s7Theatre8TeleportC6portalxvM",
+                "moduleName": "Theatre",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "transmittal",
+            "printedName": "transmittal",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Theatre8TeleportC11transmittalxvp",
+            "mangledName": "$s7Theatre8TeleportC11transmittalxvp",
+            "moduleName": "Theatre",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Theatre8TeleportC11transmittalxvg",
+                "mangledName": "$s7Theatre8TeleportC11transmittalxvg",
+                "moduleName": "Theatre",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Teleport",
+                "printedName": "Theatre.Teleport<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:7Theatre8TeleportC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Theatre8TeleportCyACyxGxcfc",
+            "mangledName": "$s7Theatre8TeleportCyACyxGxcfc",
+            "moduleName": "Theatre",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7Theatre8TeleportC",
+        "mangledName": "$s7Theatre8TeleportC",
+        "moduleName": "Theatre",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Theatre",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "OperatorDecl",
+        "name": "=>",
+        "printedName": "=>",
+        "declKind": "InfixOperator",
+        "moduleName": "Theatre",
+        "declAttributes": [
+          "Infix"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CondAction",
+        "printedName": "CondAction",
+        "declKind": "Struct",
+        "usr": "s:7Theatre10CondActionV",
+        "mangledName": "$s7Theatre10CondActionV",
+        "moduleName": "Theatre",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "=>",
+        "printedName": "=>(_:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "CondAction",
+            "printedName": "Theatre.CondAction<τ_0_0>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "usr": "s:7Theatre10CondActionV"
+          },
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "() -> Swift.Bool",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ]
+          },
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "() -> τ_0_0",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ]
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:7Theatre2egoiyAA10CondActionVyxGSbyXA_xyctlF",
+        "mangledName": "$s7Theatre2egoiyAA10CondActionVyxGSbyXA_xyctlF",
+        "moduleName": "Theatre",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "CondDo",
+        "printedName": "CondDo(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "τ_0_0?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Array",
+            "printedName": "[Theatre.CondAction<τ_0_0>]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CondAction",
+                "printedName": "Theatre.CondAction<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:7Theatre10CondActionV"
+              }
+            ],
+            "usr": "s:Sa"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:7Theatre6CondDoyxSgAA0B6ActionVyxGd_tlF",
+        "mangledName": "$s7Theatre6CondDoyxSgAA0B6ActionVyxGd_tlF",
+        "moduleName": "Theatre",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "declAttributes": [
+          "AccessControl",
+          "DiscardableResult"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Theatre",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ObservableValue",
+        "printedName": "ObservableValue",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "wrappedValue",
+            "printedName": "wrappedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Theatre15ObservableValueC07wrappedC0xvp",
+            "mangledName": "$s7Theatre15ObservableValueC07wrappedC0xvp",
+            "moduleName": "Theatre",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Theatre15ObservableValueC07wrappedC0xvg",
+                "mangledName": "$s7Theatre15ObservableValueC07wrappedC0xvg",
+                "moduleName": "Theatre",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Theatre15ObservableValueC07wrappedC0xvs",
+                "mangledName": "$s7Theatre15ObservableValueC07wrappedC0xvs",
+                "moduleName": "Theatre",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Theatre15ObservableValueC07wrappedC0xvM",
+                "mangledName": "$s7Theatre15ObservableValueC07wrappedC0xvM",
+                "moduleName": "Theatre",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "projectedValue",
+            "printedName": "projectedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ObservableValue",
+                "printedName": "Theatre.ObservableValue<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:7Theatre15ObservableValueC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Theatre15ObservableValueC09projectedC0ACyxGvp",
+            "mangledName": "$s7Theatre15ObservableValueC09projectedC0ACyxGvp",
+            "moduleName": "Theatre",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableValue",
+                    "printedName": "Theatre.ObservableValue<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:7Theatre15ObservableValueC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Theatre15ObservableValueC09projectedC0ACyxGvg",
+                "mangledName": "$s7Theatre15ObservableValueC09projectedC0ACyxGvg",
+                "moduleName": "Theatre",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(wrappedValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ObservableValue",
+                "printedName": "Theatre.ObservableValue<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:7Theatre15ObservableValueC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Theatre15ObservableValueC07wrappedC0ACyxGx_tcfc",
+            "mangledName": "$s7Theatre15ObservableValueC07wrappedC0ACyxGx_tcfc",
+            "moduleName": "Theatre",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "addObserver",
+            "printedName": "addObserver(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Theatre15ObservableValueC11addObserveryyyxcF",
+            "mangledName": "$s7Theatre15ObservableValueC11addObserveryyyxcF",
+            "moduleName": "Theatre",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7Theatre15ObservableValueC",
+        "mangledName": "$s7Theatre15ObservableValueC",
+        "moduleName": "Theatre",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "PropertyWrapper"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Theatre",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Theatre",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "OperatorDecl",
+        "name": "|>",
+        "printedName": "|>",
+        "declKind": "InfixOperator",
+        "moduleName": "Theatre",
+        "declAttributes": [
+          "Infix"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "|>",
+        "printedName": "|>(_:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "GenericTypeParam",
+            "printedName": "τ_0_1"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "GenericTypeParam",
+            "printedName": "τ_0_0"
+          },
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "(τ_0_0) -> τ_0_1",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_1"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "typeAttributes": [
+              "noescape"
+            ]
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:7Theatre2ogoiyq_x_q_xXEtr0_lF",
+        "mangledName": "$s7Theatre2ogoiyq_x_q_xXEtr0_lF",
+        "moduleName": "Theatre",
+        "genericSig": "<τ_0_0, τ_0_1>",
+        "sugared_genericSig": "<I, O>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/master\/Documents\/Program\/Xcode\/Theatre\/Theatre\/Actor\/Routine.swift",
+      "kind": "StringLiteral",
+      "offset": 106,
+      "length": 7,
+      "value": "\"Theatre.Routine\""
+    },
+    {
+      "filePath": "\/Users\/master\/Documents\/Program\/Xcode\/Theatre\/Theatre\/Express\/LogisticsCenter.swift",
+      "kind": "Dictionary",
+      "offset": 230,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/master\/Documents\/Program\/Xcode\/Theatre\/Theatre\/Express\/LogisticsCenter.swift",
+      "kind": "Dictionary",
+      "offset": 321,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/master\/Documents\/Program\/Xcode\/Theatre\/Theatre\/Actor\/Screenwriter.swift",
+      "kind": "Array",
+      "offset": 311,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/master\/Documents\/Program\/Xcode\/Theatre\/Theatre\/Actor\/Screenwriter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 341,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

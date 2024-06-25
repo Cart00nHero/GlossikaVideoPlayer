@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF52A7282C2A7E0900A30A9C /* Theatre.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF52A7272C2A7E0900A30A9C /* Theatre.xcframework */; };
+		AF52A7292C2A7E0900A30A9C /* Theatre.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AF52A7272C2A7E0900A30A9C /* Theatre.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AF944AC02C29B1050099136B /* VideoPlayerPrjApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF944ABF2C29B1050099136B /* VideoPlayerPrjApp.swift */; };
 		AF944AC22C29B1050099136B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF944AC12C29B1050099136B /* ContentView.swift */; };
 		AF944AC42C29B1080099136B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF944AC32C29B1080099136B /* Assets.xcassets */; };
@@ -15,8 +17,6 @@
 		AF944ADB2C29B1080099136B /* VideoPlayerPrjUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF944ADA2C29B1080099136B /* VideoPlayerPrjUITests.swift */; };
 		AF944ADD2C29B1080099136B /* VideoPlayerPrjUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF944ADC2C29B1080099136B /* VideoPlayerPrjUITestsLaunchTests.swift */; };
 		AF944AEC2C29B1F10099136B /* SwiftProtobuf in Frameworks */ = {isa = PBXBuildFile; productRef = AF944AEB2C29B1F10099136B /* SwiftProtobuf */; };
-		AF944AEE2C29B1FE0099136B /* Theatre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF944AED2C29B1FE0099136B /* Theatre.framework */; };
-		AF944AEF2C29B1FE0099136B /* Theatre.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AF944AED2C29B1FE0099136B /* Theatre.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AF944AF62C29B22B0099136B /* VideoPlayerPB.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF944AF12C29B22B0099136B /* VideoPlayerPB.pb.swift */; };
 		AF944AF82C29B22B0099136B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF944AF42C29B22B0099136B /* Extensions.swift */; };
 		AF944B182C29B2B40099136B /* CallApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF944AF92C29B2B30099136B /* CallApi.swift */; };
@@ -50,7 +50,6 @@
 		AF944B432C29B51F0099136B /* VideoAlbumScenarioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF944B3A2C29B51F0099136B /* VideoAlbumScenarioTests.swift */; };
 		AF944B442C29B51F0099136B /* JsonHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF944B3C2C29B51F0099136B /* JsonHandlerTests.swift */; };
 		AF944B452C29B51F0099136B /* VideoHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF944B3D2C29B51F0099136B /* VideoHandlerTests.swift */; };
-		AF944B462C29B6BF0099136B /* Theatre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF944AED2C29B1FE0099136B /* Theatre.framework */; platformFilter = ios; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,7 +76,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				AF944AEF2C29B1FE0099136B /* Theatre.framework in Embed Frameworks */,
+				AF52A7292C2A7E0900A30A9C /* Theatre.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -85,6 +84,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AF52A7272C2A7E0900A30A9C /* Theatre.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Theatre.xcframework; path = Frameworks/Theatre.xcframework; sourceTree = "<group>"; };
 		AF944ABC2C29B1050099136B /* VideoPlayerPrj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoPlayerPrj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF944ABF2C29B1050099136B /* VideoPlayerPrjApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerPrjApp.swift; sourceTree = "<group>"; };
 		AF944AC12C29B1050099136B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,7 +95,6 @@
 		AF944AD62C29B1080099136B /* VideoPlayerPrjUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoPlayerPrjUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF944ADA2C29B1080099136B /* VideoPlayerPrjUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerPrjUITests.swift; sourceTree = "<group>"; };
 		AF944ADC2C29B1080099136B /* VideoPlayerPrjUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerPrjUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		AF944AED2C29B1FE0099136B /* Theatre.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Theatre.framework; path = Frameworks/Theatre.framework; sourceTree = "<group>"; };
 		AF944AF12C29B22B0099136B /* VideoPlayerPB.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerPB.pb.swift; sourceTree = "<group>"; };
 		AF944AF42C29B22B0099136B /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		AF944AF92C29B2B30099136B /* CallApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallApi.swift; sourceTree = "<group>"; };
@@ -137,8 +136,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF944AEE2C29B1FE0099136B /* Theatre.framework in Frameworks */,
 				AF944AEC2C29B1F10099136B /* SwiftProtobuf in Frameworks */,
+				AF52A7282C2A7E0900A30A9C /* Theatre.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +145,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF944B462C29B6BF0099136B /* Theatre.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +230,7 @@
 		AF944AEA2C29B1F10099136B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AF944AED2C29B1FE0099136B /* Theatre.framework */,
+				AF52A7272C2A7E0900A30A9C /* Theatre.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

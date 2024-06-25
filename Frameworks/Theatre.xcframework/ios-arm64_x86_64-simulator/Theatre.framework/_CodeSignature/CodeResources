@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Theatre-Swift.h</key>
 		<data>
-		i3w4tkKlZfw9CYs/yQTLsWHXxV8=
+		h9BmsjpWDqv8dmrFvT78DAmfOBs=
 		</data>
 		<key>Headers/Theatre.h</key>
 		<data>
@@ -16,17 +16,33 @@
 		<data>
 		aR4TOzAUCENLvdAlC8Fi9Gf0RIQ=
 		</data>
-		<key>Modules/Theatre.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/Theatre.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		p2ReRIHaCcFu+VbBt/FO2//d0hQ=
+		s6wWc4oiH+YNffoHG3sZv5jw4Og=
+		</data>
+		<key>Modules/Theatre.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		oUc7MPe4uDfSe/h1t0yzC7NAv7g=
+		</data>
+		<key>Modules/Theatre.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		2TY3IKOMYC2Y8Hk1D3apmRKc0Iw=
+		</data>
+		<key>Modules/Theatre.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		oUc7MPe4uDfSe/h1t0yzC7NAv7g=
+		</data>
+		<key>Modules/Theatre.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		0PKKySFlibZwEVzAxRLwP1evoAI=
 		</data>
 		<key>Modules/Theatre.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		PWt5d73heywxus7E+71oPtNcEMs=
+		s6wWc4oiH+YNffoHG3sZv5jw4Og=
 		</data>
 		<key>Modules/Theatre.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		XkLqa7z7tedYsAuhsopRB2WsQjI=
+		zDaCDgRL/JRMjd4Pno7ZoaoX9XE=
 		</data>
 		<key>Modules/Theatre.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,11 +50,11 @@
 		</data>
 		<key>Modules/Theatre.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		XkLqa7z7tedYsAuhsopRB2WsQjI=
+		zDaCDgRL/JRMjd4Pno7ZoaoX9XE=
 		</data>
 		<key>Modules/Theatre.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RYjWO/s826mxz7LJzGREKbAKLPY=
+		MO0ksIoGXMeoe2sTalojUXcBUpQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sa/IHh4EqT2cX/PbOO4mo9QLQjxMxHOv8b4jKkQWaR0=
+			elvJDMiJFsDZoYCmhLB7zhOj7YxfQ0G7YkvlCEa2Pw4=
 			</data>
 		</dict>
 		<key>Headers/Theatre.h</key>
@@ -61,25 +77,53 @@
 			A6sfhIVz1suQ/4XwiAsvPzIeZSFDVKU/ydefDv+P3Mw=
 			</data>
 		</dict>
-		<key>Modules/Theatre.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/Theatre.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lt0N27lbCM2IbHe6JlYduC6VnQlFdu+LeT6rCNBFB+w=
+			N14nCwh5Lrhvo4BG2uBYFv60+dUymmnnWhX2ewXwl/o=
+			</data>
+		</dict>
+		<key>Modules/Theatre.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			g65eI1Bf2MN1bLD5ksJ2RALgQQZlgQN1ywtBrNILnrk=
+			</data>
+		</dict>
+		<key>Modules/Theatre.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/MjPvlBZCS7VMT7SKW9E+LX7DJnvF/5eyePud13D/wY=
+			</data>
+		</dict>
+		<key>Modules/Theatre.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			g65eI1Bf2MN1bLD5ksJ2RALgQQZlgQN1ywtBrNILnrk=
+			</data>
+		</dict>
+		<key>Modules/Theatre.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			s/1jGt/7VR9EfUiuD+mfXIi4/k+fa08rAlVN5FmkQkw=
 			</data>
 		</dict>
 		<key>Modules/Theatre.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+oIdRirT0EP5WNrVL74H0prLltOU6bMaOeSWEv45vjM=
+			N14nCwh5Lrhvo4BG2uBYFv60+dUymmnnWhX2ewXwl/o=
 			</data>
 		</dict>
 		<key>Modules/Theatre.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2yMnPLAJUDfkBvkvTRKxPrmRAZqxVq2MWM47SU+l11E=
+			d5g8WeN5nVD+tKV3gDnqox3DWVwskqCfy7fPUuePf1c=
 			</data>
 		</dict>
 		<key>Modules/Theatre.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -93,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2yMnPLAJUDfkBvkvTRKxPrmRAZqxVq2MWM47SU+l11E=
+			d5g8WeN5nVD+tKV3gDnqox3DWVwskqCfy7fPUuePf1c=
 			</data>
 		</dict>
 		<key>Modules/Theatre.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uuvIRyZVoqimgGmO5qMRfDIogmf225GlK/HxUiM2f80=
+			l3jDnE2XN7Z7L2HDGun2y8+SNjoocUSTqvYFE9waXGo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
