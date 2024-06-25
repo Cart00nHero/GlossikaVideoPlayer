@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+message Video {
+    string description = 1;
+    repeated string sources = 2;
+    string subtitle = 3;
+    string thumb = 4;
+    string title = 5;
+}
+
+message VideoCategory {
+    string name = 1;
+    repeated Video videos = 2;
+}
+
+message MediaData {
+    repeated VideoCategory categories = 1;
+}

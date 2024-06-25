@@ -1,0 +1,11 @@
+framework module Theatre {
+  umbrella header "Theatre.h"
+  export *
+
+  module * { export * }
+}
+
+module Theatre.Swift {
+  header "Theatre-Swift.h"
+  requires objc
+}
